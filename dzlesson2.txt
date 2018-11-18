@@ -12,3 +12,14 @@ for c in b:
         print(a)
         print(b)
 		
+______
+
+a = [22,56,77,3,4,5,6,7,9]
+b = []
+c = len(a)
+for i in range(c):
+    if a[i] % 2 == 0:
+        b.append(a[i] / 4)
+    else:
+        b.append(a[i] * 2)
+        print(b)

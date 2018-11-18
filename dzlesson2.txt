@@ -1,0 +1,4 @@
+fruits = ['€блоко', 'банан', 'киви', "ананс"]
+for fruit in fruits:
+    print("{:4}" .format(fruit))
+		
